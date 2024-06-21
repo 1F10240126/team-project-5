@@ -1,3 +1,27 @@
 .red {
     color:red;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    width: 30%;
+    margin: 10px 0 10px 0;
+    background-color: lightgray;
+}
+.content {
+    width: 70%;
+    margin: 10px 0 10px 0;
+}
+.sidebar ul {
+  margin: 0px;
+  padding: 5px 10px 5px 10px;
+}
+.sidebar li {
+    display: block;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    background-color: #eeeeee;
+}
